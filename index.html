@@ -172,7 +172,7 @@ Bayes</em></p>
 
 		<div id="recurring-comments-2" class="step slide" data-x="-750" data-y="-3500" data-z="-200" data-rotate-x="-10" data-scale="1">
 			<div class="section-title">
-				<h2 class="green">BAB I <br>PENDAHULUAN</h2>
+				<h2 class="green">BAB I </h2><br> <h2>PENDAHULUAN</h2> 
 			</div>
 			<div class="notes">
 				<ul>
@@ -541,7 +541,7 @@ klasifikasi terhadap indikasi terorisme di sosial media ?
 
 		<div id="recurring-comments-ii" class="step slide" data-x="-750" data-y="-3500" data-z="-200" data-rotate-x="-10" data-scale="1">
 			<div class="section-title">
-				<h2 class="green">BAB II <br>LANDASAN TEORI</h2>
+				<h2 class="green">BAB II </h2><br> <h2>LANDASAN TEORI</h2>
 			</div>
 			<div class="notes">
 				<ul>
@@ -661,7 +661,7 @@ klasifikasi terhadap indikasi terorisme di sosial media ?
 
 		<div id="technical-debt-vs-bad-code" class="step slide" data-x="8800" data-y="5300" data-rotate-z="90" data-scale="2">
 			<div class="section-title">
-				<h2 class="green">BAB III <br>METODE PENELITIAN</h2>
+				<h2 class="green">BAB III </h2><br> <h2>METODE PENELITIAN</h2>
 			</div>
 			<div class="notes">
 				<ul>
@@ -716,7 +716,7 @@ klasifikasi terhadap indikasi terorisme di sosial media ?
 			<div class="slide-title">Tempat Dan Waktu</div>
 			<div class="slide-content">
 				<ul class="lv0_indent">
-					<img height="500px auto" src="img/tb.png">
+					<img height="500px auto" src="img/tb2.png">
 				</ul>
 			</div>
 		</div>
@@ -726,7 +726,7 @@ klasifikasi terhadap indikasi terorisme di sosial media ?
 			<div class="slide-content">
 				<ol class="lv0_indent">
 					<em>Bahan</em> 
-					<p style="font-size: 30px">tweet dari sosial media twitter yang diberikan label oleh narasumber</p>
+					<p style="font-size: 30px">tweet dari sosial media twitter yang diberikan label indikasi terorisme</p>
 					<!-- <li>Discuss with the <em>technicians</em> in charge your proposal and its scope</li>
 					<li><em>Measure</em> with them the debt you want to pay</li>
 					<li>Clearly communicate the <em>implications</em> to the business managers</li>
@@ -748,16 +748,15 @@ klasifikasi terhadap indikasi terorisme di sosial media ?
 							<ul style="font-size: 30px">
 								<li>Laptop dengan processor AMD A6-9225 RADEON R4</li>
 								<li>Memory 4 GB</li>
-								<li>HDD 500GB</li>
+								<li>SSD 240GB</li>
 
 							</ul>
 						</li>
 						<li>
 							Perangkat Lunak
 							<ul style="font-size: 30px">
-								<li>OS Xubuntu Dekstop 20.04</li>
+								<li>OS PopOS 20.04</li>
 								<li>Bahasa Python 3.x.x</li>
-								<li>DBMS MySQL</li>
 								<li>VS Code</li>
 							</ul>
 						</li>
@@ -816,9 +815,10 @@ klasifikasi terhadap indikasi terorisme di sosial media ?
 				<ul class="lv2_indent">
 					<li><em>Teknik Pengumpulan Data</em></li>
 					<ul class="lv1_indent">
-						<li>Studi literatur</li>
-						<li>Observasi</li>
-						<li>Wawancara</li>
+						<li>Studi literatur : untuk menganalisa dan membandingkan konten agar
+							menyamakan persepsi mengenai paham terindikasi teroris.</li>
+						<li>Observasi : mengambil langsung ke sosial media twitter dan
+							mengambil data tweet-tweet yang akan diteliti.</li>
 					</ul>
 				</ul>
 			</div>
@@ -832,9 +832,9 @@ klasifikasi terhadap indikasi terorisme di sosial media ?
 				<ul class="lv2_indent">
 					<li><em>Analisis Kebutuhan</em></li>
 					<ul class="lv1_indent">
-						<li>Fungsi :Pengklasifikasi terhadap paham ekstrimisme di sosial media algoritma Naive Bayes.</li>
-						<li>Input :Pengetahuan kriteria ekstrimis, Tweet-tweet yang dibutuhkan</li>
-						<li>Output :Keluaran yang harus dilakukan adalah mampu mengklasifikasikan tweet yang terindikasi paham ekstrimisme</li>
+						<li>Fungsi :Pengklasifikasi terhadap indikasi terorisme di sosial media dengan algoritma Naive Bayes.</li>
+						<li>Input  :Tweet-tweet yang dibutuhkan sebgai data latih yang diberi label terindikasi terorisme </li>
+						<li>Output :Keluaran yang harus dilakukan adalah mampu mengklasifikasikan tweet yang terindikasi terorisme</li>
 					</ul>
 				</ul>
 			</div>
@@ -876,7 +876,7 @@ klasifikasi terhadap indikasi terorisme di sosial media ?
 				<ul class="lv2_indent">
 					<li><em>Penggunaan</em></li>
 					<ul class="lv1_indent">
-						Menginput data-data tweet yang akan diuji untuk mengklasifikasikan tweet dan akun apakah terindikasi pemahaman ekstrimis dengan menggunakan algoritma Naive Bayes.
+						Menginput data-data tweet yang akan diuji untuk mengklasifikasikan tweet dan akun apakah terindikasi terorisme dengan menggunakan algoritma Naive Bayes.
 					</ul>
 				</ul>
 			</div>
@@ -901,14 +901,186 @@ klasifikasi terhadap indikasi terorisme di sosial media ?
 			</div>
 			<div class="slide-content">
 				<ul class="lv2_indent">
-					<li><em>Penggunaan</em></li>
+					<li><em>Input</em></li>
 					<ul class="lv1_indent">
-						Analisis Data
+						Data latih sebanyak 30 data. Data yang diperoleh kemudian dibagi atas perbandingan antara label yang terindikasi dan label tidak terindikasi, yaitu 15 data dengan label terindikasi dan 15 data dengan label tidak terindikasi agar akurasi model klasifikasi dapat baik. Kemudian data melalui tahapan praproses.
 					</ul>
 				</ul>
 			</div>
 		</div>
 		
+		<div id="content19" class="step slide" data-x="8100" data-y="2000" data-scale="5">
+			<div class="slide-title">
+				<h3>Analisis Data</h3>
+			</div>
+			<div class="slide-content">
+				<ul class="lv2_indent">
+					<li><em>Proses</em></li>
+					<ul class="lv1_indent">
+						Data latih digunakan untuk membangun model menggunakan algoritma Naive Bayes. Model akan digunakan untuk data uji.
+					</ul>
+				</ul>
+			</div>
+		</div>
+		
+		<div id="content19" class="step slide" data-x="8100" data-y="2000" data-scale="5">
+			<div class="slide-title">
+				<h3>Analisis Data</h3>
+			</div>
+			<div class="slide-content">
+				<ul class="lv2_indent">
+					<li><em>Output</em></li>
+					<ul class="lv1_indent">
+						Bagian output akan menunjukan hasil klasifikasi kelas data latih yang baru dan nilai yang didapatkan oleh model. Ada dua kelas yang akan diklasifikasikan yaitu terindikasi terorisme dan tidak terindikasi terorisme.
+					</ul>
+				</ul>
+			</div>
+		</div>
+
+		<div id="content19" class="step slide" data-x="8100" data-y="2000" data-scale="5">
+			<div class="slide-title">
+				<h3>Analisis Data</h3>
+			</div>
+			<div class="slide-content">
+				<ul class="lv2_indent">
+					<img src="img/proses.png" height="auto" alt="">
+				</ul>
+			</div>
+		</div>
+
+		<div id="content19" class="step slide" data-x="8100" data-y="2000" data-scale="5">
+			<div class="slide-title">
+				<h3>Analisis Data</h3>
+			</div>
+			<div class="slide-content">
+				<ul class="lv2_indent">
+					<p style="font-size:medium;">contoh tweet yang dikatakan tidak terindikasi</p>
+					<img src="img/indikasino.png" alt="">
+				</ul>
+			</div>
+		</div>
+
+		<div id="content19" class="step slide" data-x="8100" data-y="2000" data-scale="5">
+			<div class="slide-title">
+				<h3>Analisis Data</h3>
+			</div>
+			<div class="slide-content">
+				<ul class="lv2_indent">
+					<p style="font-size:medium;">contoh tweet yang dikatakan terindikasi</p>
+					<img src="img/indikasi.png" alt="">
+				</ul>
+			</div>
+		</div>
+
+		<div id="content19" class="step slide" data-x="8100" data-y="2000" data-scale="5">
+			<div class="slide-title">
+				<h3>Analisis Data</h3>
+			</div>
+			<div class="slide-content">
+				<ul class="lv2_indent">
+					<p style="font-size:large;">Hasil praproses</p>
+					<img src="img/praproses.png" width="80%" alt="">
+				</ul>
+			</div>
+		</div>
+
+		<div id="content19" class="step slide" data-x="8100" data-y="2000" data-scale="5">
+			<div class="slide-title">
+				<h3>Analisis Data</h3>
+			</div>
+			<div class="slide-content">
+				<ul class="lv2_indent">
+					<p style="font-size:large;">Tokenisasai Bag of Word</p>
+					<img src="img/tokenisasi.png" width="80%" alt="">
+				</ul>
+			</div>
+		</div>
+
+		<div id="content19" class="step slide" data-x="8100" data-y="2000" data-scale="5">
+			<div class="slide-title">
+				<h3>Analisis Data</h3>
+			</div>
+			<div class="slide-content">
+				<ul class="lv2_indent">
+					<p style="font-size:large;">Naive Bayes on Text Classification</p>
+					<img src="img/hitung.png" width="70%" alt="">
+				</ul>
+			</div>
+		</div>
+
+		<div id="content19" class="step slide" data-x="8100" data-y="2000" data-scale="5">
+			<div class="slide-title">
+				<h3>Analisis Data</h3>
+			</div>
+			<div class="slide-content">
+				<ul class="lv2_indent">
+					<video id="vid" autoplay  width="120%" controls="controls">
+						<source src="img/vid/nb adam.mp4" type="video/mp4">
+						browser kamu tidak mendukung :(
+					</video>  
+					
+					
+				</ul>
+			</div>
+			<script>
+				document.getElementById('vid').play();
+			</script>
+		</div>
+		
+		<div id="content20" class="step slide" data-x="8100" data-y="2000" data-scale="5">
+			<div class="slide-title">
+				<h3>Perancangan</h3><p style="font-size: x-large;">flowchart</p>
+			</div>
+			<div class="slide-content">
+				<ul class="lv2_indent">
+					<ul class="">
+						<img src="img/flowchart.png" height="600em" alt="">
+					</ul>
+				</ul>
+			</div>
+		</div>
+
+		<div id="content20" class="step slide" data-x="8100" data-y="2000" data-scale="5">
+			<div class="slide-title">
+				<h3>Perancangan</h3><p style="font-size: x-large;">get API twitter</p>
+			</div>
+			<div class="slide-content">
+				<ul class="lv2_indent">
+					<ul class="">
+						<img src="img/API.png" width="100%" alt="">
+					</ul>
+				</ul>
+			</div>
+		</div>
+
+		<div id="content20" class="step slide" data-x="8100" data-y="2000" data-scale="5">
+			<div class="slide-title">
+				<h3>Perancangan</h3><p style="font-size: x-large;">Antar Muka </p>
+			</div>
+			<div class="slide-content">
+				<ul class="lv2_indent">
+					<ul class="">
+						<img src="img/mockup.png" width="100%" alt="">
+					</ul>
+				</ul>
+			</div>
+		</div>
+
+		<div id="content20" class="step slide" data-x="8100" data-y="2000" data-scale="5">
+			<div class="slide-title">
+				<h3>Perancangan</h3><p style="font-size: x-large;">Antar Muka </p>
+			</div>
+			<div class="slide-content">
+				<ul class="lv2_indent">
+					<ul class="">
+						<video id="vid2" autoplay loop  width="120%" controls="controls">
+							<source src="img/vid/streamlit-main-2020-10-27-01-10-38.mp4" type="video/mp4">
+							browser kamu tidak mendukung :(
+						</video>  
+					</ul>
+				</ul>
+			</div>
+		</div>
 		<!-- <div id="visual-definition" class="step slide" data-x="2200" data-y="-3000" data-scale="3" >
 			<div class="slide-title">
 				<p>The most widespread opinion:</p>
@@ -992,21 +1164,21 @@ klasifikasi terhadap indikasi terorisme di sosial media ?
 		<div id="bibliography" class="step slide" data-x="3500" data-y="5000" data-scale="4">
 			<div class="slide-title centered-title">Daftar Pustaka</div>
 			<div class="slide-content">
-				<img src="img/dp1.png" width="800px auto">
+				<img src="img/dap1.png" width="50%">
 			</div>
 		</div>
 		<div id="bibliography" class="step slide" data-x="3500" data-y="5000" data-scale="4">
 			<div class="slide-title centered-title">Daftar Pustaka</div>
 			<div class="slide-content">
-				<img src="img/dp2.png" width="750px auto">
+				<img src="img/dap2.png" width="50%">
 			</div>
 		</div>
-		<div id="bibliography" class="step slide" data-x="3500" data-y="5000" data-scale="4">
+		<!-- <div id="bibliography" class="step slide" data-x="3500" data-y="5000" data-scale="4">
 			<div class="slide-title centered-title">Daftar Pustaka</div>
 			<div class="slide-content">
 				<img src="img/dp3.png" width="800px auto">
 			</div>
-		</div>
+		</div> -->
 
 		<div id="questions" class="step slide" data-x="7300" data-y="5000" data-scale="3">
 			<div class="section-title">
