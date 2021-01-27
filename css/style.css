@@ -7,7 +7,9 @@
     font-family: DroidSans;
     src: url('../fonts/DroidSans.ttf');
 }
-
+.green{
+    color: darkgreen;
+}
 body{        
     font-family: DroidSans;    
     min-height: 740px;   
@@ -30,7 +32,7 @@ body{
     background: radial-gradient(center bottom, circle farthest-corner, white, #EEE, lightgray);
 
     -webkit-font-smoothing: antialiased;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
 }
 
 /* Defaults */
@@ -76,8 +78,8 @@ body{
 	padding: 20px 20px;
     font-family: DroidSans;
     /*color: #EEE;*/
-    color: dimgray;
-    text-shadow: 0 2px 2px rgba(0, 0, 0, .9);
+    /* color: dimgray; */
+    /* text-shadow: 0 2px 2px rgba(0, 0, 0, .9); */
     font-size: 30px;
     line-height: 36px;
     letter-spacing: -1px;
@@ -89,7 +91,8 @@ body{
 }
 
 .title{
-    color: teal;
+    /* color: teal; */
+    color: darkgreen;
     font-size: 80pt;
     padding: 20px;
     line-height: 65pt;
@@ -99,7 +102,8 @@ body{
     top: 25%
 }
 .title-sk{
-    color: teal;
+    /* color: teal; */
+    color:green;
     font-size: 35pt;
     padding: 10px 0px;
     line-height: 55pt;
@@ -111,7 +115,7 @@ body{
 
 .subtitle{
     /*color: #FFF;*/
-    color:dimgray;
+    /* color:dimgray; */
     font-size: 40pt;
     line-height: 65pt;
     text-align: center;
@@ -122,7 +126,7 @@ body{
 
 .subtitle-sk{
     /*color: #FFF;*/
-    color:dimgray;
+    /* color:dimgray; */
     font-size: 25pt;
     line-height: 65pt;
     text-align: center;
@@ -132,7 +136,8 @@ body{
 }
 
 .author{
-    color: teal;
+    /* color: teal; */
+    color:green;
     font-family: DroidSans;
     font-size: 30pt;
     padding: 20px;
@@ -144,7 +149,8 @@ body{
 }
 
 .author-sk{
-    color: teal;
+    /* color: teal; */
+    color: darkgreen;
     font-family: DroidSans;
     font-size: 20pt;
     padding: 5px;
@@ -196,7 +202,8 @@ body{
 
 .slide-title{
     /*color: #FFF;*/
-    color: darkslategray;
+    /* color: darkslategray; */
+    color: darkgreen; 
     height: 120px;
     font-size: 36pt;
     line-height: 120px;
@@ -207,7 +214,7 @@ body{
     line-height: 60px;
 }
 
-.centered-title{
+.centegreen-title{
 	text-align: center;
 }
 
@@ -224,7 +231,8 @@ body{
 }
 
 em{
-    color: teal;
+    /* color: teal; */
+    color :green;
 }
 
 .source{
